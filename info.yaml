@@ -9,8 +9,6 @@ project:
     - IF_MR.v
     - control.v
     - memory.v
-     - Image.v
-     - Kernel.v
     - MR_Ex.v
     - ALU.v
      - conv.v
