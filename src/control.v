@@ -10,6 +10,6 @@ module control (opcode, func, R_out, W_en);
 	
 	assign R_out = func;
 	
-	assign W_en = (opcode == 7'b_0001011) ? 1'b1 : 1'b0;
+	assign W_en = (opcode == 7'b0001011) ? 1'b1 : 1'b0;
 	
 endmodule
