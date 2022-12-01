@@ -9,8 +9,13 @@ project:
     - IF_MR.v
     - control.v
     - memory.v
+       - Image
+       - Kernel
     - MR_Ex.v
     - ALU.v
+       - conv
+       - ReLu
+       - pool
     - Ex_MW.v
     - op_MUX.v
   top_module:  "Asma_Mohsin_top"      # put the name of your top module here, make it unique by prepending your github username
