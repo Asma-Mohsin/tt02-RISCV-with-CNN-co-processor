@@ -12,8 +12,8 @@
 // Flip Flops for Pipelining
 
 
-module Asma_Mohsin_top (input [1:0] io_in,
-  output [7:0] io_out);
+module Asma_Mohsin_top (io_in,
+  io_out);
 	
 	parameter N = 8;							// Data Width
 	parameter M_AW = 10;						// Address Width -> Image memory
@@ -23,7 +23,7 @@ module Asma_Mohsin_top (input [1:0] io_in,
 	parameter IOUT = 10*N;
 	parameter FOUT = 9*N;
 	wire clock, reset;
-	
+	input [1:0]io_in;
 	assign clock = io_in[0];
 	assign reset= io_in[1];
 	
